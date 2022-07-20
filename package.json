@@ -1,0 +1,29 @@
+{
+  "name": "desafio_10_log_in_por_formulario",
+  "version": "1.0.0",
+  "description": "LOG-IN POR FORMULARIO",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/msrarg/Desafio_10_Log_In_por_Formulario.git"
+  },
+  "author": "Mauricio Simón Rodriguez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/msrarg/Desafio_10_Log_In_por_Formulario/issues"
+  },
+  "homepage": "https://github.com/msrarg/Desafio_10_Log_In_por_Formulario#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "connect-mongo": "^4.6.0",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-handlebars": "^6.0.6",
+    "express-session": "^1.17.3",
+    "handlebars": "^4.7.7"
+  }
+}
