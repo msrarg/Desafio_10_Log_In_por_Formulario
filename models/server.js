@@ -68,7 +68,7 @@ class Server {
             resave: false, // No guardar la sesión si no se ha modificado
             saveUninitialized: false, // No guardar la sesión si no se ha iniciado
             rolling: true, // cada vez que se abre la sesión se actualiza el tiempo de expiración
-            cookie:{maxAge: 60000} // 1 minuto
+            cookie:{maxAge: 600000} // 10 minutos
         }));
    
         // Lectura y parseo del body
